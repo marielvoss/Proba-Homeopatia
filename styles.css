@@ -1,0 +1,162 @@
+
+h1 {
+    display: flex;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 50px;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin: 2%;
+    border: solid;
+    
+}
+h2, h3{
+    font-family: 'Pinyon script', cursive;
+    text-align: center;
+}
+p {
+    font-family: 'rouge', cursive;
+    text-indent: 48px;
+}
+article{
+    display: block;
+    background-color: beige;
+    
+    padding: 20px;
+    margin: 2% 5%;
+    font-size: larger;
+
+}
+.inicio .beneficios{
+    display: block;
+    background-color: beige;
+    
+    padding: 20px;
+    margin: 20px;
+   
+    
+
+}
+.Contenedor{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 20px;
+   
+
+}
+.caja1{
+    display: flex;
+    background-color: rgb(208, 228, 124);
+    font-family: 'rouge', cursive;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+}
+.caja1 img{
+    border-style: solid;
+    
+}
+.medicamentos, .que{
+    width: 350px;
+    padding: 2%;
+    border: 10px;
+    margin: 10px;
+    background-color: antiquewhite;
+    
+}
+.boton{
+    display: block;
+    font-family: 'rouge', cursive;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(19, 80, 47);
+    padding: 15px;
+    border-radius: 16px;
+    width: 36%;
+    margin: 0 30%;
+    
+    
+}
+.afecciones ul{
+    list-style: none;
+    margin: 15px;
+    padding: 5%;
+    background-color: antiquewhite;
+    border: 2%;
+}
+.afecciones{
+    display: flex;
+    font-family: 'rouge', cursive;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+   
+}
+.caja2{
+    display: flex;
+    font-family: 'rouge', cursive;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tratante, .tratado{
+    width: 300px;
+    text-align: center;
+    background-color: rgb(208, 228, 124);
+    border: 15px;
+    margin: 15px;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    
+}
+.perfil {
+    display: flex;
+    background-color: antiquewhite;  
+    font-family: 'rouge', cursive;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 30px;
+    padding: 15px 0;
+    
+    
+}
+.perfil img{
+    border-radius: 50%;
+    border: solid;
+    
+
+}
+.descripcion{
+    display: block;
+    width: 800px;
+}
+.descripcion, ul{
+    list-style:square;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.336);
+    color: aliceblue;
+    font-family: 'rouge', cursive;
+    text-align: center;
+    height: 100px;
+    padding-top: 25px;
+}
+footer a{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(19, 80, 47);
+    padding: 15px;
+    border-radius: 16px;
+    margin: 15 25%;
+
+}
+
